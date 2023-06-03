@@ -8,12 +8,12 @@ Vandaag was de kickoff van de Meesterproef en kregen we in de ochtend uitleg ove
 
 **Mindmap:**
 
-<img src="images/week1/mindmap_1.jpg" alt="Mindmap eerste versie">
+<img src="images/week1/mindmap_1.JPG" alt="Mindmap eerste versie">
 Mindemap met alle informatie die we wisten voor het gesprek met de opdrachtgever.
 
 <br>
 
-<img src="images/week1/mindmap_2.jpg" alt="Mindmap tweede versie">
+<img src="images/week1/mindmap_2.JPG" alt="Mindmap tweede versie">
 Mindmap uitgebreid met de informatie die we tijdens het gesprek met de opdrachtgever hebben gekregen.
 
 ## Woensdag 31 mei 2023
@@ -46,11 +46,11 @@ Vandaag ben ik eerst verder gegaan met het uitwerken van het ontwerp in Figma. I
 
 **Afbeeldingen van het begin van het ontwerp:**
 
-<img src="images/week1/idea_1.jpg" alt="Ontwerp wensen pagina">
+<img src="images/week1/idea_1.jpg" width="1024" alt="Ontwerp wensen pagina">
 
-<img src="images/week1/idea_1_filterd.jpg" alt="Ontwerp wensen pagina: Idee gefilterd op duurzaam">
+<img src="images/week1/idea_1_filterd.jpg" width="1024" alt="Ontwerp wensen pagina: Idee gefilterd op duurzaam">
 
-<img src="images/week1/wish_detail_page1.jpg" alt="Ontwerp wensen detail pagina">
+<img src="images/week1/wish_detail_page1.jpg" width="1024" alt="Ontwerp wensen detail pagina">
 
 <br>
 
@@ -62,7 +62,7 @@ Vandaag ben ik aan het begin van de ochtend eerst verder gegaan met de code van 
 
 **Nieuw idee voor detail pagina wens:**
 
-<img src="images/week1/wish_detail_page2.jpg" alt="Nieuwe versie van ontwerp detail pagina">
+<img src="images/week1/wish_detail_page2.jpg" width="1024" alt="Nieuwe versie van ontwerp detail pagina">
 
 <br>
 
