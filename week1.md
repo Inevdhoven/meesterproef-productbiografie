@@ -8,13 +8,11 @@ Vandaag was de kickoff van de Meesterproef en kregen we in de ochtend uitleg ove
 
 **Mindmap:**
 
-<img src="images/week1/mindmap_1.JPG" alt="Mindmap eerste versie">
-Mindemap met alle informatie die we wisten voor het gesprek met de opdrachtgever.
+<img src="images/week1/mindmap_1.JPG" alt="Mindmap eerste versie"> Mindemap met alle informatie die we wisten voor het gesprek met de opdrachtgever.
 
 <br>
 
-<img src="images/week1/mindmap_2.JPG" alt="Mindmap tweede versie">
-Mindmap uitgebreid met de informatie die we tijdens het gesprek met de opdrachtgever hebben gekregen.
+<img src="images/week1/mindmap_2.JPG" alt="Mindmap tweede versie"> Mindmap uitgebreid met de informatie die we tijdens het gesprek met de opdrachtgever hebben gekregen.
 
 ## Woensdag 31 mei 2023
 
