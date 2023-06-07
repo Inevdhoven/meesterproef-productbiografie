@@ -20,23 +20,49 @@ Vandaag hebben we in de ochtend eerst de debrief afgemaakt en samen gevoegd met 
 
 **Schetsen:**
 
+Ideeën voor de icons die we kunnen gaan gebruiken voor het steunen, helpen en het worden van ambassadeur van een wens:
+
 <img src="images/week1/icons.jpeg" width="400" alt="Icon ideeën">
+
+<br>
+
+Ideeën voor het tonen van de personen die de wens steunen:
 
 <img src="images/week1/users_that_share_idea.jpeg" width="400" alt="Hoe users tonen schets">
 
+<br>
+
+Eerste idee voor de overzichtpagina van de wensen:
+
 <img src="images/week1/simple_grid_idea.jpeg" width="400" alt="Simple grid schets">
+
+<br>
+
+Idee op het idee van Pip waar zij de thema's in grote eilanden had geplaatst, waarin de wensen in eilandjes worden geplaatst. Ik heb er kleinere eilandjes van gemaakt om mee te filteren:
 
 <img src="images/week1/theme_island_idea.jpeg" width="400" alt="Filteren via eilandjes idee schets">
 
+<br>
+
+Idee voor het tonen van de wensen op een kaart, je kan op de stippen klikken om de bij behorende wens te zien en je kan filteren op de thema's:
+
 <img src="images/week1/map_idea.jpeg" width="400" alt="Idee kaart Strandeiland schets">
 
+<br>
+
+Idee voor de detail pagina van een wens, met daarbij bij welk thema de wens hoort en wie de wens steunen, trekker wil worden of wil helpen:
+
 <img src="images/week1/wish_page.jpeg" width="400" alt="Wish detail page schets">
+
+<br>
+
+Idee voor de mobiele versie van de kaart. Hierbij zie je alleen het grid van de wensen en niet meer de kaart:
 
 <img src="images/week1/mobile_version.jpeg" width="400" alt="Mobiele versie schets">
 
 Na het schetsen ben ik begonnen met het uitwerken van mijn idee in Figma.
 
-FIGMA LINK
+[Link naar Figma bestand](https://www.figma.com/file/OxPtwj3t9sXTU5buVAJU8n/Hallo-Strandeiland?type=design&node-id=0%3A1&t=NLp0LNPZ9u0MKcYO-1)
 
 ## Donderdag 1 juni 2023
 
@@ -76,4 +102,56 @@ Vandaag ben ik aan de slag gegaan met het door lezen van de feedback en heb ik h
 
 ## Zondag 4 juni 2023
 
-## Refelctie week 1
+Vandaag ben ik verder gegaan met het zoveel mogelijk verwerken van de feedback in het ontwerp. Dit zijn de pagina's geworden die ik heb ontworpen:
+
+**Ontwerpen formulier:**
+
+_Formulier ontwerp 1:_ Zwarte achtergrond bij de titels en in het midden uitgelijnd.
+
+<img src="images/week1/formulier_1.jpg" width="1024" alt="Formulier ontwerp 1 met zwarte achtergornd voor titels">
+
+<br>
+
+_Formulier ontwerp 2:_ Gele achtergrond bij de titels en in het midden uitgelijnd.
+
+<img src="images/week1/formulier_2.jpg" width="1024" alt="Formulier ontwerp 2 met gele achtergrond voor titels">
+
+<br>
+
+**Ontwerpen overzichtpagina:**
+
+_Overzichtspagina wensen ontwerp 1:_ Titel met tekst en button in blok en bij de thema's staat een bolletje in de kleur van het thema.
+
+<img src="images/week1/overzichtpagina_grid_1.jpg" width="1024" alt="Overzichtspagina wensen ontwerp 1: Titel met tekst en button in blok en bij de thema's staat een bolletje in de kleur van het thema">
+
+<br>
+
+_Overzichtspagina wensen ontwerp 2:_ Titel met achtergrond en niet in een blok, thema's zonder bolletje, zodat ze kleiner zijn en begin gemaakt aan zoekbalk.
+
+<img src="images/week1/overzichtpagina_grid_2.jpg" width="1024" alt="Overzichtspagina wensen ontwerp 2: Titel met achtergrond en niet in een blok, thema's zonder bolletje, zodat ze kleiner zijn en begin gemaakt aan zoekbalk">
+
+<br>
+
+_Overzichtspagina wensen ontwerp 3:_ Andere filter optie inplaats van meteen in beeld met een knop die een popup opent.
+
+<img src="images/week1/overzichtpagina_grid_3.jpg" width="1024" alt="Overzichtspagina wensen ontwerp 3: Andere filter optie inplaats van meteen in beeld met een knop die een popup opent">
+
+<br>
+
+_Overzichtspagina wensen ontwerp 4:_ Titel, tekst en button bovenaan zonder blok of achtergrondkleur.
+
+<img src="images/week1/overzichtpagina_grid_4.jpg" width="1024" alt="Overzichtspagina wensen ontwerp 4: Titel, tekst en button bovenaan zonder blok of achtergrondkleur">
+
+<br>
+
+_Overzichtspagina zero state:_ Dit is een begin van de zero state. Doordat er nog geen wensen zijn geplaatst, zie je dat er nog geen wensen zijn aangemaakt en dat je er een aan kunt maken.
+
+<img src="images/week1/overzichtpagina_zerostate.jpg" width="1024" alt="Overzichtspagina wensen ontwerp zero state: Dit is een begin van de zero state. Hier zie je dat er nog geen wensen zijn aangemaakt en dat je deze aan kunt maken.">
+
+## Reflectie week 1
+
+Deze week zijn Pip en ik begonnen met de meesterproef. Eerst wist ik niet zo goed waar we moesten beginnen. Het opstarten van een nieuw project vind ik altijd even lastig, maar door na het gesprek te beginnen met het uitwerken van een aantal ideeën ging het redelijk goed. Na dat ik een van mijn ideeën had uitgewerkt in Figma ben ik aan de slag gegaan met het opzetten van de code. Dit ging een stuk beter dan gedacht en had ik redelijk snel gedaan. Daarna hebben we afgesproken om in branches te gaan werken, zodat we beide onze eigen idee deels konden gaan uitwerken voor het gesprek. We hebben ook afgesproken hoe we de branches gaan noemen en hoe we commit messages gaan schrijven, zodat dit allemaal een beetje gelijk blijft.
+
+In het eerste gesprek over wat we hebben gemaakt hebben we veel feedback gekregen, wat we beter kunnen doen en waar we nog even over na moeten denken. Hiervan heb ik een lijst gemaakt waarvan je een linkje bij zaterdag staat. En daar gaan we aankomende week mee aan de slag.
+
+Over het algemeen ging de start van de Meesterproef erg goed, wel moet ik nog wel beter opletten dat ik overal issues van aanmaak en dat ik deze dan ook op de goede plek in het project zet. Dit heb ik namelijk nog niet echt vaak gebruikt, waardoor ik er niet altijd aan denk. Verder vond ik deze week erg goed gaan en ben ik tevreden met de eerste opzetjes die Pip en ik hebben gemaakt.
