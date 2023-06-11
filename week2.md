@@ -26,12 +26,107 @@ In de middag heb ik weer samen met Pip een meeting gehad om te bespreken wat we 
 
 ## Woensdag 7 juni 2023
 
-Vandaag ga ik verder met de pagina met het formulier, hier ga ik validatie aan toevoegen, zodat er tekst komt te staan wanneer je bepaalde velden niet goed hebt ingevuld. Daarnaast had Pip nog een puntje om te verbeteren op de twee pull requests die ik had aangemaakt voor de header en footer. Dit heb ik aangepast en heb opnieuw een re-request aan gevraagd.
+Vandaag ga ik verder met de pagina met het formulier, hier ga ik validatie aan toevoegen, zodat er tekst komt te staan wanneer je bepaalde velden niet goed hebt ingevuld. Daarnaast had Pip nog een puntje om te verbeteren op de twee pull requests die ik had aangemaakt voor de header en footer. Dit heb ik aangepast en heb opnieuw een re-request aan gevraagd. Het valideren van het formulier vind ik tot nu toe best lastig, waardoor het minder snel gaat dan gehoopt. Tot nu toe heb ik het volgende voor elkaar gekregen met JavaScript:
+
+```js
+const wishForm = document.querySelector(".wish-form form");
+const wishTitle = document.querySelector(".wish-form form input#title");
+const wishDescription = document.querySelector(
+  ".wish-form form textarea#description"
+);
+const wishError = document.querySelector(".wish-form form span.error");
+
+let titleErrorShown = false;
+let descriptionErrorShown = false;
+
+wishForm.setAttribute("novalidate", true);
+
+wishForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Hello from wishForm");
+
+  if (wishTitle.value === "" && wishDescription.value === "") {
+    wishTitle.focus();
+    if (!titleErrorShown) {
+      wishTitle.insertAdjacentHTML(
+        "afterend",
+        '<span class="error">Voeg alsjeblieft een titel voor je wens toe.</span>'
+      );
+      titleErrorShown = true;
+    }
+    if (!descriptionErrorShown) {
+      wishDescription.insertAdjacentHTML(
+        "afterend",
+        '<span class="error">Voeg alsjeblieft een uitleg over je wens toe.</span>'
+      );
+      descriptionErrorShown = true;
+    }
+  } else if (wishTitle.value === "") {
+    if (descriptionErrorShown) {
+      wishDescription.nextElementSibling.remove();
+      descriptionErrorShown = false;
+    }
+    console.log("Please enter a title");
+    wishTitle.focus();
+    if (!titleErrorShown) {
+      wishTitle.insertAdjacentHTML(
+        "afterend",
+        '<span class="error">Voeg alsjeblieft een titel voor je wens toe.</span>'
+      );
+      titleErrorShown = true;
+    }
+  } else if (wishDescription.value === "") {
+    if (titleErrorShown) {
+      wishTitle.nextElementSibling.remove();
+      titleErrorShown = false;
+    }
+    console.log("Please enter a description");
+    wishDescription.focus();
+    if (!descriptionErrorShown) {
+      wishDescription.insertAdjacentHTML(
+        "afterend",
+        '<span class="error">Voeg alsjeblieft een uitleg over je wens toe.</span>'
+      );
+      descriptionErrorShown = true;
+    }
+  } else {
+    console.log("Formulier word verstuurd");
+    console.log(wishTitle.value);
+    console.log(wishDescription.value);
+  }
+});
+```
+
+Toen ik het voor elkaar had gekregen dat er meldingen komen en deze ook weg gaan als er een veld wel goed is ingevuld, ben ik aan de slag gegaan om de API aan de praat te krijgen. Dit lukte helaas niet meer voordat de Weekly Nerd begon, dus dat moet een andere keer afgemaakt worden.
 
 ## Donderdag 8 juni 2023
 
-Vandaag ben ik naar CSS Day geweest.
+Vandaag ben ik naar CSS Day geweest. In de avond heb ik wel even een pull request beoordeeld en punten gecomment die aangepast kunnen worden, zodat het nog beter wordt. Dan had Jevona nog even naar de code voor de database gekeken en heb ik het linkje van Supabase aangepast en nu kunnen we data ophalen uit de API. Dit lukte namelijk eerst niet doordat ik een melding in de terminal kreeg. Dat is nu gelukkig opgelost. Daarna ben ik even aan de slag gegaan met mijn productbiografie.
+
+De code die ik heb toegevoegd voor het werkend krijgen van de API:
+
+```js
+import bodyParser from "body-parser";
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  "https://yyufywjwwwmgfjmenluv.supabase.co",
+  `${process.env.API_KEY}`
+);
+
+app.use(bodyParser.json());
+
+app.get("/thema", async (req, res) => {
+  const { data, error } = await supabase.from("thema").select();
+  res.send(data);
+});
+```
+
+Om dit werkend te maken moest ik twee packages installeren:
+
+1. npm install body-parser
+2. npm install @supabase/supabase-js
 
 ## Vrijdag 9 juni 2023
 
-Vandaag ben ik naar CSS Day geweest.
+Vandaag ben ik naar CSS Day geweest en heb ik niks meer voor de Meesterproef gedaan, behalve informatie opdoen, wat we eventueel kunnen gaan gebruiken in de opdracht.
