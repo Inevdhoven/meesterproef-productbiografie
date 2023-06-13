@@ -130,3 +130,26 @@ Om dit werkend te maken moest ik twee packages installeren:
 ## Vrijdag 9 juni 2023
 
 Vandaag ben ik naar CSS Day geweest en heb ik niks meer voor de Meesterproef gedaan, behalve informatie opdoen, wat we eventueel kunnen gaan gebruiken in de opdracht.
+
+## Zondag 11 juni 2023
+
+Vandaag ben ik aan de slag gegaan met het verwerken van de feedback in het design in Figma. Daarna ben ik begonnen met het opzetten van de HTML van de persoon pagina.
+
+De feedback punten die ik heb verwerkt in het design zijn:
+
+- Op de detail pagina van een wens heb ik de delers aangepast naar dat je de eerste 10 delers ziet en dat de rest is ingeklapt. Dit heb ik gedaan, zodat je wel een aantal mensen ziet die de wens delen maar niet een hele lange lijst van mensen die de wens delen.
+- Het design van het formulier aanpassen naar een ontwerp zonder afbeelding en met de thema's erbij.
+- Overal de achtergrond kleur aanpassen naar licht grijs, zodat het consistent is met de huidige website.
+- Filter ontwerp afmaken en toevoegen aan de overzicht pagina en het formulier.
+- De tekst op de overzicht pagina aanpassen van Suggesties naar Wensen.
+
+**Aangepaste ontwerpen:**
+
+Detail pagina van een wens:
+<img src="images/week2/wens-detail-new.jpg" width="1024px" alt="Detail pagina van een wens">
+
+Formulier met achtergrond:
+<img src="images/week2/formulier-new-bg.jpg" width="1024px" alt="Formulier met achtergrond">
+
+Formulier zonder achtergrond:
+<img src="images/week2/formulier-new.jpg" width="1024px" alt="Formulier zonder achtergrond">
