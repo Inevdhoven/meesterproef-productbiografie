@@ -169,29 +169,23 @@ In de avond is het eindelijk gelukt met hulp van Jevona om een wens naar Supabas
 
 ```js
 router.post("/wens", async (req, res) => {
-  // console.log(req.body.description)
   try {
-    const { error } = await supabase
-      .from("suggestion")
-      .insert({
-        title: req.body.title,
-        description: req.body.description,
-        theme: 1,
-        image: req.body.imageLink,
-      });
+    const { error } = await supabase.from("suggestion").insert({
+      title: req.body.title,
+      description: req.body.description,
+      theme: 1,
+      image: req.body.imageLink,
+    });
     if (error) {
       throw error;
     }
     res.status(200).json({ message: "Wens succesvol toegevoegd" });
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        error: "Er is een fout opgetreden bij het toevoegen van de wens",
-      });
-    return; // Stop de uitvoering hier om dubbele reacties te voorkomen
+    res.status(500).json({
+      error: "Er is een fout opgetreden bij het toevoegen van de wens",
+    });
+    return;
   }
-  // Alleen omleiden als er geen fout is opgetreden
   res.redirect("/wens");
 });
 ```
