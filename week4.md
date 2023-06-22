@@ -208,3 +208,59 @@ main.wish-form article dialog::backdrop {
   background: rgba(0, 0, 0, 0.25);
 }
 ```
+
+## Woensdag 21 juni 2023
+
+Vandaag ben ik de dag begonnen met het verder gaan met het stylen van de dialog in het formulier. Daarna had Pip een probleem met de Masonry library en had ze even hulp nodig om dit op te lossen. Hiervoor had ik een codepen aangemaakt om zelf te kunnen kijken of ik het werkent kon krijgen. Dit is uiteindelijk deels gelukt en heb ik de code aan Pip gegeven, zodat zij dit in het project kon zetten. De CodePen is: https://codepen.io/inevdh/pen/VwVKvQr.
+
+Nadat ik Pip had geholpen ben ik weer verder gegaan met het goed krijgen van de dialog. Ik kwam erachter dat het slim is om de partial die Pip heeft gemaakt voor de wishcards te gebruiken. Hier moest ik alleen eerst een pull request voor aan maken. Deze had verschillende merge confilcts die ik nog moest oplossen, voordat Pip hem kon goedkeuren. Nadat ik deze had opgelost kon Pip de pull request goedkeuren en kon ik verder met de dialog.
+
+Vandaag heb ik ook de design review van afgelopen donderdag ingehaald bij Vasilis. De feedback die ik heb gekregen is:
+
+- Kijken of ik bij de titels een stukje tekst kan plaatsen wat er precies van de persoon verwacht wordt.
+- Het formulier uit twee stappen laten bestaan, zodat de gebruiker echt eerst gaat checken of de wens die de gebruiker in de gedachte heeft al bestaat. Wanneer dit niet het geval kan de gebruiker het formulier invullen.
+- Nog verder kijken naar validatie.
+- Scroll margin toevoegen aan input velden, zodat deze niet onder de header komt wanneer deze niet is ingevuld.
+
+Na de lunch heb ik Laiba geholpen met het posten van de data naar Supabase. Dit was even ingewikkeld maar uiteindelijk was de oplossing best simpel. Er ging iets niet helemaal goed in de HTML er werd iets niet goed afgesloten. Toen we dit hadden opgelost ging het posten van de data naar Supabase goed.
+
+In de middag heb ik ook nog een code review gehad met Justus. Hij gaf aan dat we goed moeten gaan kijken naar wat er echt een musthave moet zijn en wat we op should en couldhave moeten zetten. Zodat we optijd alles af krijgen. Verder gaf hij aan dat ik eventueel Multer kan gaan gebruiken voor het uploaden van een image in het formulier en deze naar Supabase kan sturen. Maar dit is wel een couldhave, dus ik moet dit alleen gaan doen als ik tijd over heb.
+
+In de avond ben ik nog verder gegaan met het voorelkaar krijgen van het versturen van meerdere thema's naar Supabase. Eerst had ik de volgende code:
+
+```js
+const { error: themeError } = await supabase.from("suggestion_theme").insert([
+  {
+    suggestionId: insertId,
+    themaId: req.body.theme,
+  },
+]);
+
+if (themeError) {
+  throw themeError;
+}
+```
+
+Maar hiermee werd er maar 1 thema toegevoegd en als je er meerdere selecteerde kreeg ik een error, omdat je geen array kan sturen naar de database, maar alleen losse nummers. Daarom had ik het idee om er een `.map()` om te zetten zodat er voor elk geselecteerde thema een insert query wordt gemaakt. Dit heb ik gedaan met de volgende code:
+
+```js
+const themes = req.body.theme;
+const themeInsertPromises = themes.map(async (theme) => {
+  // Voor elk thema wordt er een insert query gemaakt
+  const { error: themeError } = await supabase.from("suggestion_theme").insert([
+    {
+      suggestionId: insertId,
+      themaId: theme,
+    },
+  ]);
+  if (themeError) {
+    throw themeError;
+  }
+});
+
+await Promise.all(themeInsertPromises); // De thema's worden toegevoegd aan de suggestion_theme tabel
+```
+
+Eerst had ik alleen de `.map()`, maar alleen daarmee alleen werkte het niet. Daarom heb ik het aan ChatGPT gevraagd en die gaf aan dat ik er een `Promise.all()` bij moest zetten en dat daarmee dan alle thema's los worden toegevoegd aan de suggestion_thems tabel in Supabase.
+
+## Donderdag 22 juni 2023
