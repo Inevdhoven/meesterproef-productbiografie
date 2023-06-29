@@ -116,4 +116,10 @@ In de avond ben ik ook nog verder gegaan met het schrijven van de design rationa
 
 ## Donderdag 29 juni 2023
 
-Vandaag ben ik begonnen met het schrijven van mijn reflectie. Ik heb een opzetje gemaakt en daarna ben ik gaan uitleggen wat ik wel en niet van de vakken heb gedaan in het project.
+Vandaag ben ik begonnen met het maken van een opzetje van mijn reflectie. Daarna ben ik de aan de slag gegaan met het maken van de presentatie, zodat deze voor vanmiddag af is. Ook heb ik de laatste stukjes tekst en afbeeldingen toegevoegd aan de design rationale. Hier hoeft Pip nu alleen nog haar deel aan toe te voegen en dan is ie klaar!!
+
+In de middag ben ik aan de slag gegaan met alles in de Wiki plaatsen wat er nog niet in staat, zodat deze ook compleet is. Dit had ik redelijk snel gedaan waardoor ik daarna aan de slag kon met de poster. Deze ben ik uiteindelijk gaan maken, omdat de poster waar Pip mee bezig was opeens verwijdert is en Pip nog meer te doen had dan ik. De poster had ik gelukkig redelijk snel af. Toen de poster af was moesten we meteen richting het Stadsloket om daar ons product te presenteren voor de opdrachtgever, iemand van de Gemeente Amsterdam en degene die heeft geholpen met het ontwerp van het huidige ontwerp van hallo Strandeiland.
+
+De presentatie ging erg goed en ze waren erg enthausiast. Ze hadden ook nog wel wat punten waar we misschien beter over na hadden kunnen denken als we meer tijd hadden gehad. Maar wat we hebben gemaakt vonden ze goed, dus daar ben ik erg blij mee.
+
+In de avond ben ik aan de slag gegaan met het schrijven van mijn reflectie.
