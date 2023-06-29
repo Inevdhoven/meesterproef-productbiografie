@@ -16,7 +16,7 @@ Vandaag was de kickoff van de Meesterproef en kregen we in de ochtend uitleg ove
 
 ## Woensdag 31 mei 2023
 
-Vandaag hebben we in de ochtend eerst de debrief afgemaakt en samen gevoegd met het andere groepje. Deze hebben we opgestuurd naar de opdrachtgever en ook naar Koop de coach van dit project. Na het afmaken van de debrief zijn Pip en ik begonnen met het opzetten van het project. We hebben een repository aangemaakt, de wiki opgezet en issues aangemaakt. In de middag hadden wij ook een gesprek met Joost over hoe we het beste een API voor de data in de website kunnen maken. We hebben hierbij afgesproken dat Jevona met Supabase een API gaat maken en dat Pip en ik deze ook mogen gebruiken. Aan het einde van de dag zijn we gaan brainsromen over wat we precies kunnen gaan maken. Daarvan heb ik ook verschillende schetsen gemaakt deze zal ik hieronder plaatsen.
+Vandaag hebben we in de ochtend eerst de debrief afgemaakt en samen gevoegd met het andere groepje. Deze hebben we opgestuurd naar de opdrachtgever en ook naar Koop de coach van dit project. Na het afmaken van de debrief zijn Pip en ik begonnen met het opzetten van het project. We hebben een repository aangemaakt, de wiki opgezet en issues aangemaakt. In de middag hadden wij ook een gesprek met Joost over hoe we het beste een API voor de data in de website kunnen maken. We hebben hierbij afgesproken dat Jevona met Supabase een API gaat maken en dat Pip en ik deze ook mogen gebruiken. Aan het einde van de dag zijn we gaan brainstormen over wat we precies kunnen gaan maken. Daarvan heb ik ook verschillende schetsen gemaakt deze zal ik hieronder plaatsen.
 
 **Schetsen:**
 
