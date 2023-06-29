@@ -1,6 +1,6 @@
 # Reflectie
 
-In deze reflectie ga ik per gevolgde vak gedurende de Minor Web Design & Development kijken wat ik wel en niet heb gedaan gedurende de Meesterproef. Daarnaast ga ik ook vertellen wat ik allemaal heb geleerd.
+In deze reflectie ga ik per gevolgd vak gedurende de Minor Web Design & Development kijken wat ik wel en niet heb gedaan gedurende de Meesterproef. Daarnaast ga ik ook vertellen wat ik allemaal heb geleerd.
 
 ## CSS to the Rescue
 
@@ -12,7 +12,7 @@ In deze reflectie ga ik per gevolgde vak gedurende de Minor Web Design & Develop
 
   Deze selectores kun je beide terug vinden in het volgende bestand [new-wish.css](https://github.com/PipHarsveld/Hallo-Strandeiland/blob/main/public/css/new-wish.css).
 
-- Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan allen web pages 'stylen'.
+- Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan alleen web pages 'stylen'.
 
   Ja, ik heb begrip van wat er allemaal mogelijk is met CSS, maar ik heb nog lang niet alles uitgeprobeert. Ik weet bijvoorbeeld wanneer ik iets met display flex kan doen of met grid. Wanneer ik de :has() selecotor kan gebruiken of hoe je ervoor kan zorgen dat wanneer iets juist is ingevult er een vinkje komt. Maar er zijn natuurlijk nog veel meer dingen die ik had kunnen doen, zoals het toevoegen van animaties of het gebruiken van container queries. Hier heb ik alleen niet genoeg tijd voor gehad om er echt aandacht aan te besteden.
 
@@ -42,7 +42,7 @@ In deze reflectie ga ik per gevolgde vak gedurende de Minor Web Design & Develop
 
   Ik heb zoveel mogelijk geprobeerd om de code die ik heb geschreven zo gestructureerd mogelijk te schrijven. Hiervoor hebben Pip en ik ook regels opgesteld om ervoor te zorgen dat alles goed bij elkaar past. Zo heb ik om overzicht te houden boven alles neer gezet waar het precies over gaat in [script.js](https://github.com/PipHarsveld/Hallo-Strandeiland/blob/main/public/scripts/script.js) en ook comments in veel bestanden geplaatst, zodat iedereen kan lezen wat er precies gebeurd. Ook heb ik zo veel mogelijk geprobeerd om geen code te herhalen. Dit is alleen niet helemaal goed gelukt in de [routes.js](https://github.com/PipHarsveld/Hallo-Strandeiland/blob/main/router/routes.js), maar hier heb ik en Pip helaas ook niet genoeg tijd voor gehad om daar rustig voor te gaan zitten en functies te schrijven voor het ophalen van de data. Daarnaast was het ophalen van de data vanuit Supabase voor mij nieuw en was het veel uitzoek werk, waardoor ik het juist wel fijn vind dat alles overal waar het nodig is staat. Hierdoor kan ik het zelf makkelijker terug vinden en aanpassen. Maar het is natuurlijk wel netter om dit in een functie te zetten.
 
-  De CSS bestanden waar ik aan heb gewerkt heb ik geprobeerd zo netjes mogelijk op te bouwen. Het eerste element wat op de pagina voorkomt staat dan ook boven aan in het CSS bestand. Op deze manier kan ik het zelf goed terug vinden en is het ook overzichtelijk met de HTML ernaast. Daarnaast heb ik ook een eigen structuur voor het schrijven van de CSS, zo begin ik in de selector met de widht en height en ga ik dan naar de padding, border en margin. Daarna komt alles wat met positionering te maken heeft en daarna de alles met fonts en kleuren. Dit is niet de standaard manier, maar voor mij werkt dit het beste en zo kan ik zelf alles makkelijk terug vinden.
+  De CSS bestanden waar ik aan heb gewerkt heb ik geprobeerd zo netjes mogelijk op te bouwen. Het eerste element wat op de pagina voorkomt staat dan ook boven aan in het CSS bestand. Op deze manier kan ik het zelf goed terug vinden en is het ook overzichtelijk met de HTML ernaast. Daarnaast heb ik ook een eigen structuur voor het schrijven van de CSS, zo begin ik in de selector met de width en height en ga ik dan naar de padding, border en margin. Daarna komt alles wat met positionering te maken heeft en daarna de alles met fonts en kleuren. Dit is niet de standaard manier, maar voor mij werkt dit het beste en zo kan ik zelf alles makkelijk terug vinden.
 
   Het managen van de states van de UI is niet echt van toepassing, als het werkt werkt het en als het niet werkt komt er een error in de console en op het scherm. Dit stond wel op de planning maar hebben we geen tijd voor gehad.
 
@@ -57,7 +57,7 @@ In deze reflectie ga ik per gevolgde vak gedurende de Minor Web Design & Develop
 
 - Data management - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html
 
-  In dit project ben ik veel bezig geweest met het versturen en ophalen van data uit Supabase. Dit was voor mij helemaal nieuw en ik heb er ook even mee lopen struggelen om dit goed voor elkaar te krijgen. Maar het is me gelukt en daar ben ik dan ook trots op. Daarnaast lijkt het mij ook erg leuk om dit in de toekomst nog een keer te doen, om het zo beter onder de knie te krijgen. Het ophalen ophalen en versturen van de data naar Supabase kun je terug vinden in het volgende bestand vanaf regel 98 tot en met 220 in [routes.js](https://github.com/PipHarsveld/Hallo-Strandeiland/blob/main/router/routes.js).
+  In dit project ben ik veel bezig geweest met het versturen en ophalen van data uit Supabase. Dit was voor mij helemaal nieuw en ik heb er ook even mee lopen struggelen om dit goed voor elkaar te krijgen. Maar het is me gelukt en daar ben ik dan ook trots op. Daarnaast lijkt het mij ook erg leuk om dit in de toekomst nog een keer te doen, om het zo beter onder de knie te krijgen. Het ophalen en versturen van de data naar Supabase kun je terug vinden in het volgende bestand vanaf regel 98 tot en met 220 in [routes.js](https://github.com/PipHarsveld/Hallo-Strandeiland/blob/main/router/routes.js).
 
 ## Browser Technologies
 
@@ -144,4 +144,4 @@ Gedurende deze vijf weken werken aan een project heb ik erg veel geleerd. Zo heb
 
 ## Waar ben ik trots op?
 
-Ik ben erg trots op het formulier dat ik heb gemaakt, met validatie en dat wanneer hij goed is ingevuld ook data naar Supabase stuurt. Dit vond ik ook echt leuk om te maken en uit te zoeken hoe ik dit precies moest doen. Daarnaast ben ik ook trots op de detail pagina, hier haal ik de data die ik naar Supabase heb gestuurd weer op en laat ik het op de juiste plek zien. Het was ook erg lastig om de thema's voor op de detail pagina op te halen, dit kwam doordat je eerst de nummers moet ophalen waar de thema's bij horen en daarna moet je het bij behorende thema uit een andere tabel ophalen. Maar ook dit is na wat uitzoek werk gelukt.
+Ik ben erg trots op het formulier dat ik heb gemaakt, met validatie en dat, wanneer hij goed is ingevuld, ook data naar Supabase stuurt. Dit vond ik ook echt leuk om te maken en uit te zoeken hoe ik dit precies moest doen. Daarnaast ben ik ook trots op de detail pagina, hier haal ik de data, die ik naar Supabase heb gestuurd, weer op en laat ik het op de juiste plek zien. Het was ook erg lastig om de thema's voor op de detail pagina op te halen. Dit kwam doordat je eerst de nummers moet ophalen waar de thema's bij horen en daarna moet je het bij behorende thema uit een andere tabel ophalen. Maar ook dit is na wat uitzoek werk gelukt.
